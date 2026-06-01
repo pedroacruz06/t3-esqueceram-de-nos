@@ -1,0 +1,6 @@
+// missing : 
+
+square function integer ( x: integer ) = {
+    return x*x;
+}
+

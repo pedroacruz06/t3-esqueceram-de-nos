@@ -1,0 +1,59 @@
+[program 
+[func-declaration 
+[integer]
+[gcd]
+[params
+[param [u][integer]]
+[param [v][integer]]]
+[block 
+[selection-stmt 
+[== 
+[var [v]][0]]
+[return-stmt 
+[var [u]]]
+[return-stmt 
+[call 
+[gcd]
+[args 
+[var [v]]
+[- 
+[var [u]]
+[* 
+[/ 
+[var [u]]
+[var [v]]]
+[var [v]]]]]
+]]]]]
+[func-declaration 
+[void]
+[main]
+[params]
+[block 
+[var-declaration [x][integer]]
+[var-declaration [y][integer]]
+[= 
+[var [x]]
+[call 
+[input]
+[args []]
+]]
+[= 
+[var [y]]
+[call 
+[input]
+[args []]
+]]
+[call 
+[gcd]
+[args 
+[var [x]]
+[var [y]]]
+]
+[print-stmt 
+[call 
+[gcd]
+[args 
+[var [x]]
+[var [y]]]
+]]]]
+]

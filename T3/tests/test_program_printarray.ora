@@ -1,0 +1,22 @@
+[program 
+[func-declaration 
+[void]
+[printarray]
+[params
+[param [a][integer]]
+[param [size][integer]]]
+[block 
+[var-declaration [i][integer][0]]
+[iteration-stmt 
+[< 
+[var [i]]
+[var [size]]]
+[block 
+[print-stmt 
+[var-array [a]
+[var [i]]]]
+[= 
+[var [i]]
+[+ 
+[var [i]][1]]]]]]]
+]

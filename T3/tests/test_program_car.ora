@@ -1,0 +1,13 @@
+[program 
+[func-declaration 
+[void]
+[main]
+[params]
+[block 
+[var-declaration [n_rodas][integer][2]]
+[var-declaration [n_marchas][integer][10]]
+[var-declaration [e_novo][boolean][true]]
+[print-stmt 
+[var [n_rodas]]
+[var [n_marchas]]]]]
+]

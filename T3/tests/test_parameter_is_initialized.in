@@ -1,0 +1,7 @@
+// parameter cannot be initialized
+
+x: integer;
+
+foo: function void (y: integer = 1) {
+   x = 0;
+} 

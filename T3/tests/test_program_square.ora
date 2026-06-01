@@ -1,0 +1,12 @@
+[program 
+[func-declaration 
+[integer]
+[square]
+[params
+[param [x][integer]]]
+[block 
+[return-stmt 
+[* 
+[var [x]]
+[var [x]]]]]]
+]

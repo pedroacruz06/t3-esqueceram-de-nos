@@ -1,0 +1,34 @@
+[program 
+[func-declaration 
+[void]
+[main]
+[params
+[param [teste][integer]]
+[param [tam][integer]]]
+[block 
+[array-declaration 
+]
+[var-declaration [n][integer][1]]
+[selection-stmt 
+[> 
+[var [tam]][10]]
+[return-stmt [;]
+]]
+[iteration-stmt 
+[<= 
+[var [n]]
+[var [tam]]]
+[block 
+[= 
+[var-array [a]
+[var [n]]]
+[var-array [teste]
+[var [n]]]]
+[print-stmt 
+[var-array [a]
+[var [n]]]]
+[= 
+[var [n]]
+[+ 
+[var [n]][1]]]]]]]
+]

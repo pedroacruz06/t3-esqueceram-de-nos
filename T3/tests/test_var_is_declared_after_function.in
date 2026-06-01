@@ -1,0 +1,11 @@
+// var declaration after function
+
+m: function integer () = {
+   return 0;
+}
+
+x: integer;
+
+main: function void () = {
+   x = m();
+}

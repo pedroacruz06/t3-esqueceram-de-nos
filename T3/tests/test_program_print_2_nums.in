@@ -1,0 +1,10 @@
+// func declaration type
+
+min: integer;
+x: integer;
+
+main: function void () = { 
+   min = 1;
+   x = 0;
+   print(min,x); 
+}

@@ -1,0 +1,22 @@
+[program 
+[func-declaration 
+[void]
+[main]
+[params]
+[block 
+[array-declaration 
+]
+[var-declaration [n][integer][2]]
+[= 
+[var-array [a][1]][99]]
+[= 
+[var-array [a]
+[var [n]]]
+[var-array [a][1]]]
+[= 
+[var [n]][100]]
+[print-stmt 
+[var-array [a][1]]
+[var-array [a][2]]
+[var [n]]]]]
+]

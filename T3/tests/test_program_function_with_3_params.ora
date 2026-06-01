@@ -1,0 +1,12 @@
+[program 
+[func-declaration 
+[void]
+[main]
+[params
+[param [argc][integer]]
+[param [argb][integer]]
+[param [arga][integer]]]
+[block 
+[return-stmt [;]
+]]]
+]

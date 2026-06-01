@@ -1,0 +1,15 @@
+// array
+
+main: function void () = {
+
+a: array[10] integer;
+n: integer = 2;
+
+a[1] = 99;
+a[n] = a[1];
+n = 100;
+print(a[1],a[2],n);
+
+}
+
+

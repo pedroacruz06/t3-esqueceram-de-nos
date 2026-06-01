@@ -1,0 +1,12 @@
+// nested function
+
+main: function void () = {
+
+x: integer;
+
+m: function integer () = {
+   return 0;
+}
+
+   x = m();
+}

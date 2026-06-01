@@ -1,0 +1,40 @@
+[program 
+[func-declaration 
+[boolean]
+[foo]
+[params
+[param [x][integer]]
+[param [y][integer]]]
+[block 
+[return-stmt 
+[!= 
+[var [x]][0]]]]]
+[func-declaration 
+[void]
+[main]
+[params]
+[block 
+[var-declaration [x][integer]]
+[var-declaration [y][integer]]
+[= 
+[var [x]]
+[call 
+[input]
+[args []]
+]]
+[= 
+[var [y]]
+[call 
+[input]
+[args []]
+]]
+[selection-stmt 
+[call 
+[foo]
+[args 
+[var [x]]
+[var [y]]]
+]
+[print-stmt 
+[var [x]]]]]]
+]

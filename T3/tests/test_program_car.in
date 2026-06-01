@@ -1,0 +1,7 @@
+main: function void () = {
+
+n_rodas: integer = 2;
+n_marchas: integer = 10;
+e_novo: boolean = true;
+print(n_rodas,  n_marchas);
+}

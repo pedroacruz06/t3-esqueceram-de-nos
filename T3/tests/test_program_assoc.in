@@ -1,0 +1,18 @@
+// test assoc
+
+main: function void () = {
+
+i: integer = 10;
+j: integer = 2;
+k: integer = 5;
+
+x: integer;
+
+x = i - j - k;
+print (x);
+x = i + j + k;
+print (x);
+x = i * j * k;
+print (x);
+
+}

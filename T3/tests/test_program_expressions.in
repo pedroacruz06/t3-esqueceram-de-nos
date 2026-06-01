@@ -1,0 +1,19 @@
+// test expressions
+
+main: function void() = { 
+
+i: integer;
+j: integer;
+k: integer;
+b: boolean;
+
+i = 10 * j;
+j = 2 + i - k;
+b = f(i,j,k);
+if (b) {
+   k = input();
+   return k;
+} 
+
+}
+

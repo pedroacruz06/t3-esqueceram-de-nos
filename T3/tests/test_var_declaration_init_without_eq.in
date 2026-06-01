@@ -1,0 +1,6 @@
+// ill-formed init
+
+min: integer 1;
+
+main: function void () = { return min; }
+

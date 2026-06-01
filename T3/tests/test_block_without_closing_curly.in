@@ -1,0 +1,5 @@
+// TP2 test: function block
+
+main: function void (argc: integer, 
+                     argb: integer, 
+                     arga: integer) = { return ; 

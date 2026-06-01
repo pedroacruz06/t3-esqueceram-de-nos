@@ -1,0 +1,38 @@
+[program 
+[func-declaration 
+[void]
+[main]
+[params]
+[block 
+[var-declaration [i][integer][10]]
+[var-declaration [j][integer][2]]
+[var-declaration [k][integer][5]]
+[var-declaration [x][integer]]
+[= 
+[var [x]]
+[- 
+[- 
+[var [i]]
+[var [j]]]
+[var [k]]]]
+[print-stmt 
+[var [x]]]
+[= 
+[var [x]]
+[+ 
+[+ 
+[var [i]]
+[var [j]]]
+[var [k]]]]
+[print-stmt 
+[var [x]]]
+[= 
+[var [x]]
+[* 
+[* 
+[var [i]]
+[var [j]]]
+[var [k]]]]
+[print-stmt 
+[var [x]]]]]
+]

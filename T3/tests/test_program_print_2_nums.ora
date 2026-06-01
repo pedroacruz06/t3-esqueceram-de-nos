@@ -1,0 +1,16 @@
+[program 
+[var-declaration [min][integer]]
+[var-declaration [x][integer]]
+[func-declaration 
+[void]
+[main]
+[params]
+[block 
+[= 
+[var [min]][1]]
+[= 
+[var [x]][0]]
+[print-stmt 
+[var [min]]
+[var [x]]]]]
+]

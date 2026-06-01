@@ -1,0 +1,13 @@
+// test program with two functions
+
+foo: function boolean (x: integer) = 
+{
+    return (x != 0);
+}
+
+main: function void () = { 
+   x: integer;
+   y: boolean;
+   x = input();
+   y = foo(x);
+}

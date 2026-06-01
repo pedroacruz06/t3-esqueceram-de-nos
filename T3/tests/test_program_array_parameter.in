@@ -1,0 +1,19 @@
+// array param
+
+main: function void (teste: array [] integer, tam:integer) = {
+
+a: array[10] integer;
+n: integer = 1;
+
+if (tam > 10) 
+   return ;
+
+while (n <= tam) {
+   a[n] = teste[n];
+   print(a[n]);
+   n = n + 1; 
+}
+
+}
+
+
