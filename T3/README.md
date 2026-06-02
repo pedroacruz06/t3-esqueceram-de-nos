@@ -104,7 +104,7 @@ sejam resolvidos antes de começar o trabalho T3.
 ## Analisador sintático em Bison com Construção de AST
 
 Preparação: Usar a gramática para _compL_ validada no trabalho T2.
-- **Atenção**: Ler [aspectos sintáticos](./T2-especificacao-revisada.md) de _compL_ 
+- **Atenção**: Ler [aspectos sintáticos](./T2-especificacao-revisado.md) de _compL_ 
 -- versão melhorada da especificação disponibilizada para T2.
 - Usar o programa Bison desenvolvido em T2 (t2.y) como ponto de partida.
 - Adaptar o programa Flex usado em T2 (t2.l) para passar os valores de constantes
